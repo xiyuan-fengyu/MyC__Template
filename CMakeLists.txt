@@ -12,6 +12,7 @@ else ()
 
 endif ()
 
+link_libraries(boost_system boost_filesystem boost_log boost_log_setup)
 
 include_directories(src)
 include_directories(${PROJECT_BINARY_DIR}/src)
